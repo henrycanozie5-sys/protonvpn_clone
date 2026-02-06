@@ -1,0 +1,10 @@
+# Node dependencies
+node_modules/
+
+# Tailwind build cache (optional but recommended)
+.dist/
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
