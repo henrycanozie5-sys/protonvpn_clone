@@ -37,6 +37,7 @@ header a span{
 .p2{
     color: #372580;
     font-size: 72px;
+    font-family: Arizona;
 }
 @media screen and (max-width: 768px) {
     .p2{
