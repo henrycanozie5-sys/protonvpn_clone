@@ -31,4 +31,80 @@ header a span{
     color:#6d4aff;
     margin: 1em;
     text-align: center ;
+    font-weight: bold;
+}
+
+.p2{
+    color: #372580;
+    font-size: 72px;
+}
+@media screen and (max-width: 768px) {
+    .p2{
+        font-size: 40px;
+    }
+    
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.p3{
+    font-family: Inter;
+    font-style: normal;
+    color: #4B5563;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    
+
+
+}
+
+.custom-color-1{
+    color: #6d4aff;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.two-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    margin: 1em;
+}
+@media screen and (max-width: 768px) {
+    .two-links{
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+    }
+}
+
+.p5{
+    font-family: Inter;
+    font-style: normal;
+    color: #4B5563;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    margin:1em;
+    text-align: center;
+
+}
+
+.p6{
+    font-family: Inter;
+    font-style: normal;
+    color: #4B5563;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+
 }
